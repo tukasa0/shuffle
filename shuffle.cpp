@@ -22,7 +22,7 @@ void Shuffle(int* array1, int arraysize)
 
 }
 
-void Show(const int* array1, const int arraysize)
+void Show(const int* const array1, const int const arraysize)
 {
 	for (int i = 0; i < arraysize; ++i)
 	{
